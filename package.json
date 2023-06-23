@@ -1,0 +1,32 @@
+{
+  "name": "@hugomos/typescript",
+  "version": "0.0.1",
+  "description": "uma mais",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/sample.ts\" -e ts"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomos/typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "hugomos"
+  ],
+  "author": "Vitor Hugo Oliveira <@hugomos>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomos/typescript/issues"
+  },
+  "homepage": "https://github.com/hugomos/typescript#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
